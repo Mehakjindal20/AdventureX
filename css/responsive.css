@@ -1,0 +1,54 @@
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .nav-links {
+    gap: 1rem;
+  }
+
+  .header-content h1 {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .navbar {
+    padding: 0.8rem 1rem;
+  }
+
+  .header-content {
+    padding: 1rem;
+  }
+
+  .header-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .header-content h1 {
+    font-size: 2.4rem;
+  }
+
+  .events,
+  .tours,
+  #about,
+  #contact {
+    padding: 4rem 0;
+  }
+
+  .image-gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .title h1 {
+    letter-spacing: 0.04em;
+  }
+
+  .ctn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .card {
+    padding: 0.8rem;
+  }
+}
